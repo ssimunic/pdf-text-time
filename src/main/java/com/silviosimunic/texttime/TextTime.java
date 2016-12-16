@@ -23,7 +23,7 @@ public class TextTime {
 
         hours = (int) ((milliseconds / (1000 * 60 * 60)) % 24);
         minutes = (int) ((milliseconds / (1000 * 60)) % 60);
-        seconds = (int) (milliseconds / 1000) % 60 ;
+        seconds = (int) (milliseconds / 1000) % 60;
     }
 
     public String readTimeHuman(TimeType type) {
