@@ -5,7 +5,12 @@ Get PDF word count and estimated reading time required. Assumed reading time is 
 
 ### Usage
 
-#### Input
+#### Input args
+```
+/path/to/file.pdf
+```
+
+#### Input (compiled as JAR)
 ```
 java -jar pdf-text-time.jar /path/to/file.pdf
 ```
