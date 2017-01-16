@@ -1,6 +1,8 @@
 # PDF Text Time
 Get PDF word count and estimated reading time required. Assumed reading time is 275 WPM.
 
+Project is using [Apache PDFBox](https://pdfbox.apache.org/).
+
 ## Example
 
 ### Usage
